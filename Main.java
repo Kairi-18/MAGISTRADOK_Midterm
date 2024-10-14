@@ -43,7 +43,7 @@ class Student extends Person {
     }
 
     static Student createStudentFromInput() {
-        System.out.println("YOur a fucking Student");
+        System.out.println("Student");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter student name: ");
         String name = sc.nextLine();
