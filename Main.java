@@ -107,9 +107,15 @@ public class Main {
 
     public static void main(String[] args) {
         Student s = Student.createStudentFromInput();
-        printDetails(s);
+        printDetails(s)
+
+        Student k = Student.createStudentFromInput();
+        printDetails(k)
 
         Instructor i = Instructor.createInstructorFromInput();
         printDetails(i);
+
+        Instructor t = Instructor.createInstructorFromInput();
+        printDetails(t);
     }
 }
